@@ -2,7 +2,7 @@ export default {
     async fetch(request) {
 
         // مثال جلب مباريات من ScoreBat
-        const res = await fetch("https://www.scorebat.com/video-api/v3/");
+        const res = await fetch("https://www.ysscores.com/ar/index");
         const data = await res.json();
 
         // ترتيب حسب الأهمية
